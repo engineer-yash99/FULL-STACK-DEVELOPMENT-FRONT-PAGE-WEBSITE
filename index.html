@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Development Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">WebDevHub</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tech">Technologies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container text-center">
+    <img src="https://as2.ftcdn.net/v2/jpg/02/17/95/25/1000_F_217952599_5vlyMMgovZhBfG8uay51hpbgedYEStjN.jpg" alt="Web Development Icon" class="mb-3 rounded-circle">
+    <h1>Become a Web Developer</h1>
+    <p>Learn modern web development technologies and build real-world websites.</p>
+    <a href="#tech" class="btn btn-light btn-lg">Start Learning</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.5AHYH64bjhb4PKB2TNqvrAHaEK?pid=Api&P=0&h=180" alt="Web Development Tools" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>About Web Development</h2>
+        <p>
+          Web development is the process of creating websites and web applications that are accessible via the internet. It encompasses a wide range of skills and technologies, from designing user interfaces to managing server-side logic and databases.
+        </p>
+        <p>
+          <strong>Frontend Development:</strong> Focuses on the visual and interactive elements of a website that users see and interact with directly. Technologies include HTML for structure, CSS for styling, and JavaScript for interactivity.
+        </p>
+        <p>
+          <strong>Backend Development:</strong> Handles the server-side logic, databases, and application functionality that powers the frontend. Languages like Python, Node.js, and PHP are commonly used.
+        </p>
+        <p>
+          <strong>Full-Stack Development:</strong> Combines both frontend and backend skills to build complete web solutions. This holistic approach ensures seamless integration between user interface and server operations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">Featured Projects</h2>
+    <p class="text-center mb-5">Explore some of the web development projects I've worked on, showcasing various technologies and design principles.</p>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/2b/8b/7b/2b8b7bfd80da3d40aeb77e47774c102d.jpg" class="card-img-top" alt="Personal Portfolio">
+          <div class="card-body">
+            <h5 class="card-title">Personal Portfolio</h5>
+            <p class="card-text">A responsive personal portfolio website built with HTML, CSS, and Bootstrap. Features include smooth scrolling, contact form, and project showcase.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2021/11/22/20/20/online-6817350_1280.jpg" class="card-img-top" alt="E-commerce Store">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Store</h5>
+            <p class="card-text">A full-stack e-commerce platform using React for frontend, Node.js for backend, and MongoDB for database. Includes user authentication and payment integration.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/userupload/4382541/file/original-423d781d748f6f658adb5db64c8cfb1c.png?resize=1600x1200r" class="card-img-top" alt="Task Manager App">
+          <div class="card-body">
+            <h5 class="card-title">Task Manager App</h5>
+            <p class="card-text">A productivity app built with Vue.js and Firebase. Features include real-time updates, user authentication, and collaborative task management.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="feature-card">
+          <h4>Responsive Design</h4>
+          <p>Websites that work perfectly on mobile, tablet, and desktop devices.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card">
+          <h4>Modern UI</h4>
+          <p>Clean layouts, professional colors, and user-friendly interfaces.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card">
+          <h4>Industry Ready</h4>
+          <p>Skills aligned with internships, projects, and real-world development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Technologies Tabs -->
+<section id="tech" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">Technologies</h2>
+
+    <ul class="nav nav-tabs justify-content-center">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#frontend">Frontend</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#backend">Backend</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tools">Tools</button>
+      </li>
+    </ul>
+
+    <div class="tab-content mt-4">
+      <div class="tab-pane fade show active" id="frontend">
+        <p>HTML, CSS, Bootstrap, JavaScript – used to build the user interface.</p>
+      </div>
+      <div class="tab-pane fade" id="backend">
+        <p>PHP, Python, Node.js – handle server logic, authentication, and APIs.</p>
+      </div>
+      <div class="tab-pane fade" id="tools">
+        <p>Git, GitHub, VS Code, Chrome DevTools – essential developer tools.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Progress -->
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Skill Progress</h2>
+
+    <div class="mb-3">
+      <label>HTML</label>
+      <div class="progress">
+        <div class="progress-bar" style="width:90%">90%</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label>CSS</label>
+      <div class="progress">
+        <div class="progress-bar" style="width:80%">80%</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label>Bootstrap</label>
+      <div class="progress">
+        <div class="progress-bar" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">FAQ</h2>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#q1">
+            Is web development hard?
+          </button>
+        </h2>
+        <div id="q1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            No. With consistent practice and projects, anyone can learn web development.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#q2">
+            Can I get an internship with these skills?
+          </button>
+        </h2>
+        <div id="q2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Yes. HTML, CSS, Bootstrap, and basic JavaScript are enough for entry-level internships.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h2>Contact Us</h2>
+        <p>Get in touch for web development consultations, project inquiries, or collaboration opportunities.</p>
+        <p><strong>Email:</strong> webdevhub@gmail.com</p>
+        <p><strong>Location:</strong> India</p>
+        <p><strong>Phone:</strong> +91 12345 67890</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://thumbs.dreamstime.com/b/prise-de-contact-10359440.jpg" alt="Contact Illustration" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 WebDevHub | Learn • Build • Grow</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
