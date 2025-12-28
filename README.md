@@ -1,0 +1,1 @@
+This project is a responsive and user-friendly website developed using HTML, CSS, and Bootstrap. It is designed to demonstrate front-end web development fundamentals, clean UI design, and responsive layouts suitable for all screen sizes
